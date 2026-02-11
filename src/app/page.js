@@ -1,5 +1,6 @@
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
+import Courses from "@/components/Courses";
 
 function HomePage() {
 
@@ -7,6 +8,7 @@ function HomePage() {
         <main>
             <Hero></Hero>
             <Features></Features>
+            <Courses></Courses>
         </main>
     );
 }
