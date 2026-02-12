@@ -1,13 +1,22 @@
 "use client"
 
 import { useState } from "react"
+import { useRouter } from "next/navigation"
 
 function NavBar() {
 
-    const [showMenu, setShowMenu] = useState("false")
+    const [showMenu, setShowMenu] = useState(false)
+    const router = useRouter()
 
     function toggleMenu() {
         setShowMenu(!showMenu)
+    }
+    const handleLoginClick = () => {
+        router.push('/login?mode=login')
+    }
+
+    const handleSignUpClick = () => {
+        router.push('/login?mode=signup')
     }
 
     return (
@@ -33,10 +42,10 @@ function NavBar() {
                 <li><a className="inline-block hover:-translate-y-0.5 transition-transform duration-300" href="#">About us</a></li>
             </ul>
             <div className="flex items-center justify-center gap-2">
-                <button type="button" className="bg-white text-darkBlue md:inline hidden text-sm font-semibold hover:shadow-lg hover:shadow-black/10 transition-all duration-300 w-35 h-11 rounded-full cursor-pointer">
+                <button onClick={handleLoginClick} type="button" className="bg-white text-darkBlue md:inline hidden text-sm font-semibold hover:shadow-lg hover:shadow-black/10 transition-all duration-300 w-35 h-11 rounded-full cursor-pointer">
                     Login
                 </button>
-                <button type="button" className="bg-white/30 text-white md:inline hidden text-sm font-semibold hover:shadow-lg hover:shadow-black/10 transition-all duration-300 w-35 h-11 rounded-full cursor-pointer">
+                <button onClick={handleSignUpClick} type="button" className="bg-white/30 text-white md:inline hidden text-sm font-semibold hover:shadow-lg hover:shadow-black/10 transition-all duration-300 w-35 h-11 rounded-full cursor-pointer">
                     Sign Up
                 </button>
             </div>
@@ -56,10 +65,10 @@ function NavBar() {
                     <li><a href="#" className="text-sm">About us</a></li>
                 </ul>
                 <div className="flex flex-col items-center gap-3 mt-6">
-                    <button type="button" className="bg-white text-darkBlue text-sm font-semibold hover:shadow-lg hover:shadow-black/10 transition-all w-45 h-10 rounded-full cursor-pointer">
+                    <button onClick={handleLoginClick} type="button" className="bg-white text-darkBlue text-sm font-semibold hover:shadow-lg hover:shadow-black/10 transition-all w-45 h-10 rounded-full cursor-pointer">
                         Login
                     </button>
-                    <button type="button" className="bg-white/30 text-white text-sm font-semibold hover:shadow-lg hover:shadow-black/10 transition-all w-45 h-10 rounded-full cursor-pointer">
+                    <button onClick={handleSignUpClick} type="button" className="bg-white/30 text-white text-sm font-semibold hover:shadow-lg hover:shadow-black/10 transition-all w-45 h-10 rounded-full cursor-pointer">
                         Sign Up
                     </button>
                 </div>  
