@@ -8,8 +8,8 @@ function Features() {
             <div className="w-full lg:w-[45%] flex flex-col items-start justify-center">
                 <div className="py-4 mb-6">
                     <p className="text-blue text-sm capitalize font-semibold">nos fonctionnalités clés</p>
-                    <h2 className="text-darkBlue capitalize font-semibold text-2xl md:text-3xl lg:text-4xl mt-2 leading-tight lg:leading-snug">des fonctionnalités puissantes pour votre apprentissage</h2>
-                    <p className="text-sm md:text-base text-darkBlue/50 font-medium mt-2 leading-relaxed">Des recommandations personnalisées au contenu interactif, nous avons tout ce dont vous avez besoin</p>
+                    <h2 className="text-darkBlue capitalize font-semibold text-2xl md:text-3xl lg:text-4xl mt-2 leading-tight lg:leading-snug">Des fonctionnalités simples pour un apprentissage efficace</h2>
+                    <p className="text-sm md:text-base text-darkBlue/50 font-medium mt-2 leading-relaxed">Découvrez des outils conçus pour rendre votre expérience d’apprentissage claire, intuitive et agréable.</p>
                 </div>
                 <div className="flex flex-col w-full space-y-4">
                     <div className="flex justify-start items-start gap-3">
@@ -29,8 +29,8 @@ function Features() {
                             </defs>
                         </svg>
                         <div className="flex flex-col justify-start items-start">
-                            <p className="text-darkBlue font-medium text-base md:text-lg capitalize">parcours d'apprentissage personnalisé</p>
-                            <p className="text-darkBlue/60 text-sm md:text-base font-normal">Recevez des recommandations de cours adaptées à vos besoins</p>
+                            <p className="text-darkBlue font-medium text-base md:text-lg capitalize">Catalogue de cours organisé</p>
+                            <p className="text-darkBlue/60 text-sm md:text-base font-normal">Parcourez facilement nos cours pour trouver rapidement ce qui vous intéresse.</p>
                         </div>
                     </div>
                     <hr className="border-darkBlue/20"/>
@@ -51,8 +51,8 @@ function Features() {
                             </defs>
                         </svg>
                         <div className="flex flex-col justify-start items-start">
-                            <p className="text-darkBlue font-medium text-base md:text-lg capitalize">sessions en direct & webinaires</p>
-                            <p className="text-darkBlue/60 text-sm md:text-base font-normal">Où les étudiants peuvent interagir directement avec les instructeurs</p>
+                            <p className="text-darkBlue font-medium text-base md:text-lg capitalize">Détails complets des cours</p>
+                            <p className="text-darkBlue/60 text-sm md:text-base font-normal">Consultez les informations détaillées de chaque cours</p>
                         </div>
                     </div>
                     <hr className="border-darkBlue/20"/>
@@ -73,8 +73,8 @@ function Features() {
                             </defs>
                         </svg>
                         <div className="flex flex-col justify-start items-start">
-                            <p className="text-darkBlue font-medium text-base md:text-lg capitalize">tableau de bord étudiant</p>
-                            <p className="text-darkBlue/60 text-sm md:text-base font-normal">Suivez votre progression et gérez vos cours</p>
+                            <p className="text-darkBlue font-medium text-base md:text-lg capitalize">Navigation simple et rapide</p>
+                            <p className="text-darkBlue/60 text-sm md:text-base font-normal">Trouvez rapidement le cours qui correspond à vos besoins.</p>
                         </div>
                     </div>
                     <hr className="border-darkBlue/20"/>
@@ -95,8 +95,8 @@ function Features() {
                             </defs>
                         </svg>
                         <div className="flex flex-col justify-start items-start">
-                            <p className="text-darkBlue font-medium text-base md:text-lg capitalize">communauté & réseautage</p>
-                            <p className="text-darkBlue/60 text-sm md:text-base font-normal">Connectez-vous avec d'autres étudiants via notre plateforme communautaire</p>
+                            <p className="text-darkBlue font-medium text-base md:text-lg capitalize">Interface moderne et intuitive</p>
+                            <p className="text-darkBlue/60 text-sm md:text-base font-normal">Profitez d’un design clair et responsive.</p>
                         </div>
                     </div>
                 </div>

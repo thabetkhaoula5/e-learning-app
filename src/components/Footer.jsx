@@ -34,17 +34,17 @@ function Footer() {
                             </li>
                             <li>
                                 <a href="#" className="text-white/90 text-sm md:text-base font-normal hover:text-blue hover:translate-x-2 inline-block transition-all duration-300">
+                                   Fonctionnalités
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" className="text-white/90 text-sm md:text-base font-normal hover:text-blue hover:translate-x-2 inline-block transition-all duration-300">
+                                    Témoignages
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" className="text-white/90 text-sm md:text-base font-normal hover:text-blue hover:translate-x-2 inline-block transition-all duration-300">
                                     Cours
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" className="text-white/90 text-sm md:text-base font-normal hover:text-blue hover:translate-x-2 inline-block transition-all duration-300">
-                                    Blog
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" className="text-white/90 text-sm md:text-base font-normal hover:text-blue hover:translate-x-2 inline-block transition-all duration-300">
-                                    À propos
                                 </a>
                             </li>
                         </ul>

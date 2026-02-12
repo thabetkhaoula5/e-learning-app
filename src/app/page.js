@@ -9,16 +9,15 @@ import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
 
 function HomePage() {
-
     return (
-        <main>
-            <NavBar></NavBar>
-            <Hero></Hero>
-            <Features></Features>
-            <Courses></Courses>
-            <CallToAction></CallToAction>
-            <Testimonials></Testimonials>
-            <Footer></Footer>
+        <main className="pt-17.5">
+            <NavBar/>
+            <section id="accueil"><Hero/></section>
+            <section id="fonctionnalites"><Features/></section>
+            <Courses/>
+            <CallToAction />
+            <section id="temoignages"><Testimonials/></section>
+            <Footer/>
         </main>
     );
 }

@@ -15,16 +15,16 @@ function Courses() {
                     </svg>
                 </button>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 w-full max-w-270 justify-items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 w-full max-w-275 justify-items-center">
                 {/* Card 1 */}
                 <div className="flex flex-col bg-white rounded-2xl border border-darkBlue/20 shadow-lg shadow-darkBlue/10 overflow-hidden hover:shadow-xl hover:-translate-y-2 transition-all duration-500 w-full max-w-sm md:max-w-md">
                     <div className="p-4">
-                        <img src="\images\img-3.svg" alt="" className="w-full h-48 object-cover rounded-xl" />
+                        <img src="\images\iot.svg" alt="internet of things iot" className="w-full h-48 object-cover rounded-xl" />
                     </div>
                     <div className="px-5 pb-6 flex flex-col gap-2">
-                        <span className="text-orange text-sm font-medium"># Cloud</span>
-                        <h3 className="text-2xl capitalize text-darkBlue font-semibold leading-snug">architecte de solutions certifié AWS</h3>
-                        <p className="text-darkBlue/60 text-[16px] font-normal">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do euido</p>
+                        <span className="text-orange text-sm font-medium"># IOT</span>
+                        <h3 className="text-2xl capitalize text-darkBlue font-semibold leading-snug">Internet des Objets (IoT)</h3>
+                        <p className="text-darkBlue/60 text-[16px] font-normal">Développez des solutions connectées et programmez des objets intelligents pour l'IoT.</p>
                         
                         <div className="flex justify-between items-center py-2">
                             <div className="flex items-center gap-1.5">
@@ -53,7 +53,7 @@ function Courses() {
                                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M11.625 0C18.0469 0 23.25 5.20312 23.25 11.625C23.25 18.0469 18.0469 23.25 11.625 23.25C5.20312 23.25 0 18.0469 0 11.625C0 5.20312 5.20312 0 11.625 0ZM11.625 21C16.7812 21 21 16.8281 21 11.625C21 6.46875 16.7812 2.25 11.625 2.25C6.42188 2.25 2.25 6.46875 2.25 11.625C2.25 16.8281 6.42188 21 11.625 21ZM14.4844 16.125L10.5 13.2188C10.3594 13.125 10.3125 12.9375 10.3125 12.7969V5.0625C10.3125 4.78125 10.5469 4.5 10.875 4.5H12.375C12.6562 4.5 12.9375 4.78125 12.9375 5.0625V11.7188L16.0312 14.0156C16.3125 14.2031 16.3594 14.5312 16.1719 14.8125L15.2812 15.9844C15.0938 16.2656 14.7656 16.3125 14.4844 16.125Z" fill="#252641" fillOpacity="0.4"/>
                                 </svg>
-                                <span className="text-darkBlue text-sm font-medium">3 Mois</span>
+                                <span className="text-darkBlue text-sm font-medium">3 Semaines</span>
                             </div>
                         </div>
                         
@@ -63,7 +63,7 @@ function Courses() {
                                 <span className="text-sm text-darkBlue font-medium">Lina</span>
                             </div>
                             <button className="capitalize text-blue text-sm font-semibold hover:underline cursor-pointer">
-                                voir le cours
+                                voir plus
                             </button>
                         </div>
                     </div>
@@ -72,12 +72,12 @@ function Courses() {
                 {/* Card 2 */}
                 <div className="flex flex-col bg-white rounded-2xl border border-darkBlue/20 shadow-lg shadow-darkBlue/10 overflow-hidden hover:shadow-xl hover:-translate-y-2 transition-all duration-500 w-full max-w-sm md:max-w-md">
                     <div className="p-4">
-                        <img src="\images\img-3.svg" alt="" className="w-full h-48 object-cover rounded-xl" />
+                        <img src="\images\python.svg" alt="python" className="w-full h-48 object-cover rounded-xl" />
                     </div>
                     <div className="px-5 pb-6 flex flex-col gap-2">
-                        <span className="text-orange text-sm font-medium"># Cloud</span>
-                        <h3 className="text-2xl capitalize text-darkBlue font-semibold leading-snug">architecte de solutions certifié AWS</h3>
-                        <p className="text-darkBlue/60 text-[16px] font-normal">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do euido</p>
+                        <span className="text-orange text-sm font-medium"># Python</span>
+                        <h3 className="text-2xl capitalize text-darkBlue font-semibold leading-snug">Data Analysis With Python</h3>
+                        <p className="text-darkBlue/60 text-[16px] font-normal">Maîtrisez l'analyse de données et transformez les données brutes en insights exploitables.</p>
                         
                         <div className="flex justify-between items-center py-2">
                             <div className="flex items-center gap-1.5">
@@ -100,13 +100,13 @@ function Courses() {
                                     </clipPath>
                                     </defs>
                                 </svg>
-                                <span className="text-darkBlue text-sm font-medium">10 Leçons</span>
+                                <span className="text-darkBlue text-sm font-medium">12 Leçons</span>
                             </div>
                             <div className="flex items-center gap-1.5">
                                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M11.625 0C18.0469 0 23.25 5.20312 23.25 11.625C23.25 18.0469 18.0469 23.25 11.625 23.25C5.20312 23.25 0 18.0469 0 11.625C0 5.20312 5.20312 0 11.625 0ZM11.625 21C16.7812 21 21 16.8281 21 11.625C21 6.46875 16.7812 2.25 11.625 2.25C6.42188 2.25 2.25 6.46875 2.25 11.625C2.25 16.8281 6.42188 21 11.625 21ZM14.4844 16.125L10.5 13.2188C10.3594 13.125 10.3125 12.9375 10.3125 12.7969V5.0625C10.3125 4.78125 10.5469 4.5 10.875 4.5H12.375C12.6562 4.5 12.9375 4.78125 12.9375 5.0625V11.7188L16.0312 14.0156C16.3125 14.2031 16.3594 14.5312 16.1719 14.8125L15.2812 15.9844C15.0938 16.2656 14.7656 16.3125 14.4844 16.125Z" fill="#252641" fillOpacity="0.4"/>
                                 </svg>
-                                <span className="text-darkBlue text-sm font-medium">3 Mois</span>
+                                <span className="text-darkBlue text-sm font-medium">1 Mois</span>
                             </div>
                         </div>
                         
@@ -116,7 +116,7 @@ function Courses() {
                                 <span className="text-sm text-darkBlue font-medium">Lina</span>
                             </div>
                             <button className="capitalize text-blue text-sm font-semibold hover:underline cursor-pointer">
-                                voir le cours
+                                voir plus
                             </button>
                         </div>
                     </div>
@@ -127,12 +127,12 @@ function Courses() {
                 
                 <div className="flex flex-col bg-white rounded-2xl border border-darkBlue/20 shadow-lg shadow-darkBlue/10 overflow-hidden hover:shadow-xl hover:-translate-y-2 transition-all duration-500 w-full max-w-sm md:max-w-md">
                     <div className="p-4">
-                        <img src="\images\img-3.svg" alt="" className="w-full h-48 object-cover rounded-xl" />
+                        <img src="\images\design.svg" alt="ui/ux design" className="w-full h-48 object-cover rounded-xl" />
                     </div>
                     <div className="px-5 pb-6 flex flex-col gap-2">
-                        <span className="text-orange text-sm font-medium"># Cloud</span>
-                        <h3 className="text-2xl capitalize text-darkBlue font-semibold leading-snug">architecte de solutions certifié AWS</h3>
-                        <p className="text-darkBlue/60 text-[16px] font-normal">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do euido</p>
+                        <span className="text-orange text-sm font-medium"># UI/UX</span>
+                        <h3 className="text-2xl capitalize text-darkBlue font-semibold leading-snug">Design UI/UX</h3>
+                        <p className="text-darkBlue/60 text-[16px] font-normal">Concevez des interfaces utilisateur intuitives et des expériences engageantes centrées sur l'utilisateur.</p>
                         
                         <div className="flex justify-between items-center py-2">
                             <div className="flex items-center gap-1.5">
@@ -161,7 +161,7 @@ function Courses() {
                                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M11.625 0C18.0469 0 23.25 5.20312 23.25 11.625C23.25 18.0469 18.0469 23.25 11.625 23.25C5.20312 23.25 0 18.0469 0 11.625C0 5.20312 5.20312 0 11.625 0ZM11.625 21C16.7812 21 21 16.8281 21 11.625C21 6.46875 16.7812 2.25 11.625 2.25C6.42188 2.25 2.25 6.46875 2.25 11.625C2.25 16.8281 6.42188 21 11.625 21ZM14.4844 16.125L10.5 13.2188C10.3594 13.125 10.3125 12.9375 10.3125 12.7969V5.0625C10.3125 4.78125 10.5469 4.5 10.875 4.5H12.375C12.6562 4.5 12.9375 4.78125 12.9375 5.0625V11.7188L16.0312 14.0156C16.3125 14.2031 16.3594 14.5312 16.1719 14.8125L15.2812 15.9844C15.0938 16.2656 14.7656 16.3125 14.4844 16.125Z" fill="#252641" fillOpacity="0.4"/>
                                 </svg>
-                                <span className="text-darkBlue text-sm font-medium">3 Mois</span>
+                                <span className="text-darkBlue text-sm font-medium">3 Semaines</span>
                             </div>
                         </div>
                         
@@ -171,7 +171,7 @@ function Courses() {
                                 <span className="text-sm text-darkBlue font-medium">Lina</span>
                             </div>
                             <button className="capitalize text-blue text-sm font-semibold hover:underline cursor-pointer">
-                                voir le cours
+                                voir plus
                             </button>
                         </div>
                     </div>

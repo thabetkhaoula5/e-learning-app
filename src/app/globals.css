@@ -10,3 +10,7 @@
   --font-poppins: "Poppins";
   --font-inter: "Inter";
 }
+
+html {
+  scroll-behavior: smooth;
+}
