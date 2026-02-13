@@ -5,7 +5,7 @@ import Pagination from '@/components/Pagination';
 
 export default function CoursesPage() {
     return (
-        <main className="pt-17.5">
+        <main className="pt-17.5 space-y-10 bg-gray-50">
             <NavBar/>
             <Courses1 />
             <Pagination totalPages={2} currentPage={1} />

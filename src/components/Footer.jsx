@@ -1,7 +1,7 @@
 function Footer() {
 
     return (
-        <footer className="relative bg-darkBlue">
+        <footer className="relative bg-darkBlue ">
             <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-20 pt-12 pb-6 md:pt-16 lg:pt-20">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-16 lg:gap-20 mb-16">
                     {/* Logo and Description */}

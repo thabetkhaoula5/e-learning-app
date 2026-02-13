@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function CoursesPage() {
     return (
         <main className="min-h-screen bg-gray-50 py-12 px-6">
@@ -111,9 +113,9 @@ function CoursesPage() {
                                     <img src="\images\img-4.svg" alt="profile de tutor" className="w-9 h-9 rounded-full" />
                                     <span className="text-sm text-darkBlue font-medium">Lina</span>
                                 </div>
-                                <button className="text-blue text-sm font-semibold hover:underline cursor-pointer">
+                                <Link className="text-blue text-sm font-semibold hover:underline cursor-pointer" href="/cours/coursDetails">
                                     Voir Plus
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </div>

@@ -1,14 +1,14 @@
-import Courses2 from '@/components/Courses2';
+
+import CoursPy from '@/components/CoursPy';
 import Footer from '@/components/Footer';
 import NavBar from '@/components/NavBar';
 import Pagination from '@/components/Pagination';
 
 export default function CoursesPage2() {
     return (
-        <main className="pt-17.5 space-y-10 bg-gray-50">
+        <main className="pt-17.5">
             <NavBar/>
-            <Courses2 />
-            <Pagination totalPages={2} currentPage={2} />
+            <CoursPy/>
             <Footer/>
         </main>
     );
