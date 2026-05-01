@@ -28,22 +28,22 @@ function Footer() {
                         <h3 className="text-lg md:text-xl font-semibold text-background capitalize">Liens</h3>
                         <ul className="flex flex-col gap-3">
                             <li>
-                                <a href="#" className="text-white/90 text-sm md:text-base font-normal hover:text-blue hover:translate-x-2 inline-block transition-all duration-300">
+                                <a href="/" className="text-white/90 text-sm md:text-base font-normal hover:text-blue hover:translate-x-2 inline-block transition-all duration-300">
                                     Accueil
                                 </a>
                             </li>
                             <li>
-                                <a href="#" className="text-white/90 text-sm md:text-base font-normal hover:text-blue hover:translate-x-2 inline-block transition-all duration-300">
+                                <a href="/" className="text-white/90 text-sm md:text-base font-normal hover:text-blue hover:translate-x-2 inline-block transition-all duration-300">
                                    Fonctionnalités
                                 </a>
                             </li>
                             <li>
-                                <a href="#" className="text-white/90 text-sm md:text-base font-normal hover:text-blue hover:translate-x-2 inline-block transition-all duration-300">
+                                <a href="/" className="text-white/90 text-sm md:text-base font-normal hover:text-blue hover:translate-x-2 inline-block transition-all duration-300">
                                     Témoignages
                                 </a>
                             </li>
                             <li>
-                                <a href="#" className="text-white/90 text-sm md:text-base font-normal hover:text-blue hover:translate-x-2 inline-block transition-all duration-300">
+                                <a href="/" className="text-white/90 text-sm md:text-base font-normal hover:text-blue hover:translate-x-2 inline-block transition-all duration-300">
                                     Cours
                                 </a>
                             </li>
