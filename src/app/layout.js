@@ -12,6 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <body>
+    <h1>Titre de page optimisé</h1>
         {children}
       </body>
     </html>
